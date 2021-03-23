@@ -151,7 +151,6 @@ function page2() {
 
 
 
-
 function sort1(){
   let currentSort =document.getElementById('select').value;
 
@@ -210,13 +209,6 @@ function sort1(){
       $('div').css({ 'display': 'none' });
       $('.' + currentSort).css({ 'display': 'inline-block' });
     });
-
-
-  if(value !== 'default'){
-    $('section').hide();
-    $(`section[data-keyword=${value}]`).fadeIn('slow');
-  } else {
-    $('section').fadeIn('slow');
 
   }
 }
