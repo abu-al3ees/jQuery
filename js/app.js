@@ -61,9 +61,9 @@ function hideElement() {
 
   if(value !== 'default'){
     $('section').hide();
-    $(`section[data-keyword=${value}]`).fadeIn(750);
+    $(`section[data-keyword=${value}]`).fadeIn('slow');
   } else {
-    $('section').fadeIn(750);
+    $('section').fadeIn('slow');
   }
 }
 
