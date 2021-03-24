@@ -1,3 +1,4 @@
+
 section {
     width: 40%;
     height: 400px;
@@ -19,3 +20,42 @@ section {
     clear: both;
     text-align: center;
   }
+
+#photo-template {
+  display: none;
+}
+
+
+
+div img{
+  width: 325px;
+  height: 200px;
+  border-radius: 20px;
+  
+}
+select{
+  padding: 10px 20px;
+  font-size: 60%;
+  background-color: #fdfdff;
+  color: #77757c;
+  border-style: none;
+  border-radius: 4px;
+  margin-right: auto;
+
+}
+#Page1{
+  padding: 10px 16px;
+  background-color: #a8a8aa;
+  border-style: none;
+  color: #000000;
+  border-radius: 20px;
+}
+#Page2{
+  padding: 10px 16px;
+  background-color: #a8a8aa;
+  border-style: none;
+  color: #000000;
+  border-radius: 20px;
+}
+
+
