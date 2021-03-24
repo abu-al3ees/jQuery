@@ -21,8 +21,7 @@ section {
   width: 40%;
   height: 400px;
   text-align: center;
-  /* display: flex; */
-  /* flex-flow: column wrap; */
+  
   justify-content: space-around;
   float: left;
   background-color:rgba(73, 53, 56, 0.801);
