@@ -1,6 +1,7 @@
+/* eslint-disable no-undef */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
+//////////////////////
 'use strict';
 let keywords = [];
 let infoArray = [];
@@ -214,8 +215,6 @@ function sort1(){
 }
 
 
-
-
 function sort2(){
   let currentSort =document.getElementById('select').value;
 
@@ -283,3 +282,4 @@ function sort2(){
 
 
 
+}

@@ -1,26 +1,4 @@
 
-section {
-    width: 40%;
-    height: 400px;
-    text-align: center;
-   
-    justify-content: space-around;
-    float: left;
-    background-color: rgba(88, 88, 97, 0.801);
-    border-radius: 20px;
-    margin: 50px;
-  }
-  select {
-    margin: 25px;
-    width: 25%;
-    padding: 12.5px;
-    border-radius: 10%;
-  }
-  footer {
-    clear: both;
-    text-align: center;
-  }
-
 #photo-template {
   display: none;
 }
@@ -57,5 +35,3 @@ select{
   color: #000000;
   border-radius: 20px;
 }
-
-

@@ -7,11 +7,12 @@
 div{
 
  border-radius: 30px;
-  margin: 20px 0;
+  margin: 12px;
   width: 350px;
   text-align: center;
   height: 375px;
   background-color: whitesmoke;
+  float: left;
  
 }
 main{
@@ -36,17 +37,9 @@ header{
   width: 100%;
   margin-bottom: 20px;
   text-align: center;
-  
-  justify-content: space-around;
-  float: left;
-  background-color:rgba(73, 53, 56, 0.801);
-  border-radius: 20px;
-  margin: 50px;
-
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 150%;
-
 }
 
 footer{
@@ -55,15 +48,16 @@ footer{
   width: 100%;
   font-size: large;
   align-items: center;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
 
 section {
-  display: flex;
+  /* display: flex; */
   width: 100%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  float: left;
   justify-content: space-around;
 }
