@@ -2,8 +2,8 @@ section {
     width: 40%;
     height: 400px;
     text-align: center;
-    display: flex;
-    flex-flow: column wrap;
+    /* display: flex; */
+    /* flex-flow: column wrap; */
     justify-content: space-around;
     float: left;
     background-color: rgba(88, 88, 97, 0.801);
