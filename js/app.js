@@ -215,8 +215,6 @@ function sort1(){
 }
 
 
-
-
 function sort2(){
   let currentSort =document.getElementById('select').value;
 
@@ -283,4 +281,6 @@ function sort2(){
 
 
 
+
+}
 
