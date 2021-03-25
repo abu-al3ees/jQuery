@@ -267,7 +267,7 @@ function sort2(){
       forSorting2(data);
 
       data.forEach((item) => {
-        let horn = new ImagesS(item);
+        let horn = new Images(item);
         $('#allItems').append(horn.renderIt());
       });
       getData(keywords);
